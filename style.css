@@ -2,6 +2,12 @@ body {
   margin: 0;
   padding: 0;
 }
+.container {
+  max-width: 1370px;
+}
+.custom_container {
+  max-width: 1800px;
+}
 
 header {
   position: sticky;
@@ -14,13 +20,78 @@ header img {
 }
 
 header div {
-  margin-left: 280px;
+  /* margin-left: 280px; */
   padding: 10px 0;
 }
 
-.input {
-  width: 200px;
-  height: 200px;
-  background-color: black;
+.banner {
+  background-image: url("https://www.windtrebusiness.it/Assets/M16/179/C_4_M16_185_sfondoBig.jpg");
+  background-repeat: no-repeat;
+  padding: 30px 0;
+}
+.banner .right_div .form {
+  background-color: white;
+  max-width: 450px;
+  margin: auto;
+  /* padding: 20px; */
+}
+.banner .right_div .form h5 {
+  text-align: center;
+  color: #ff6900;
+}
+.banner .right_div .form h6 {
+  text-align: center;
+}
+.banner .right_div .form button {
+  background-color: #ff6900;
   color: white;
+  border-radius: 50px;
+  padding: 10px 100px;
+  border: none;
+}
+
+/* .input {
+  color: white;
+} */
+
+.offer-form {
+  background-color: white;
+  width: 450px;
+  height: 440px;
+}
+
+.orange-text {
+  color: #ff6900;
+}
+
+.form-text {
+  font-weight: 700;
+  font-size: 16px;
+  margin: 0;
+}
+
+.bottom-border-only {
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+
+.form-check-label {
+  font-size: 11px;
+}
+
+.form-footer-text {
+  font-size: 12px;
+}
+
+.input-footer-text {
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+.input-text {
+  font-size: 14px;
+}
+
+.reset-text {
+  font-size: 18px;
 }
