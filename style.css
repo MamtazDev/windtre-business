@@ -60,10 +60,15 @@ header div {
   padding: 10px 100px;
   border: none;
 }
-.right_div .expires,
-.bottom_div .expires {
+.right_div .expires {
   background-color: #ff6900;
   max-width: 450px;
+  margin: auto;
+}
+
+.bottom_div .expires {
+  background-color: #ff6900;
+  width: 100%;
   margin: auto;
 }
 .right_div .expires p,
@@ -186,6 +191,10 @@ footer img {
 .accordion-header {
   border: 1px solid;
   border-radius: 3px;
+}
+
+.modal-body img {
+  height: 100px;
 }
 
 /* input,

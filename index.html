@@ -36,7 +36,7 @@
                         <div class="col-12 col-lg-6">
                             <div class="d-none d-lg-block right_div  ">
                                 <div
-                                    class="expires d-flex gap-2 justify-content-center align-items-center p-2 mb-3">
+                                    class="expires d-flex  gap-2 justify-content-center align-items-center p-2 mb-3">
                                     <h5 class="text-white">Expires in</h5>
                                     <div>
                                         <div class="d-flex gap-2">
@@ -139,7 +139,10 @@
 
                                         <div class="text-center">
 
-                                            <button class="fw-bold mt-3 mb-2">
+                                            <button type="button"
+                                                data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal"
+                                                class="fw-bold mt-3 mb-2">
                                                 SEND
                                             </button>
                                             <p
@@ -160,7 +163,7 @@
             <div>
                 <div class="d-block d-lg-none bottom_div ">
                     <div
-                        class="expires d-flex gap-2 justify-content-center align-items-center p-2 mb-3">
+                        class="expires d-flex flex-column  gap-2 justify-content-center align-items-center p-2 mb-3">
                         <h5 class="text-white">Expires in</h5>
                         <div>
                             <div class="d-flex gap-2">
@@ -262,7 +265,9 @@
 
                             <div class="text-center">
 
-                                <button class="fw-bold mt-3 mb-2">
+                                <button type="button" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal"
+                                    class="fw-bold mt-3 mb-2">
                                     SEND
                                 </button>
                                 <p
@@ -662,6 +667,45 @@
             </section>
             <!-- accordion end -->
         </main>
+
+        <!-- modal -->
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1"
+            aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content bg-dark">
+                    <div class="modal-header border-0">
+                        <h1 class="modal-title fs-5 fw-bold text-white"
+                            id="exampleModalLabel">Attention!
+                            Fill in all mandatory fields</h1>
+                        <button type="button" class="btn-close"
+                            data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="modal fade" id="exampleModal" tabindex="-1"
+            aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header border-0">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+                        <button type="button" class="btn-close"
+                            data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img
+                            src="https://pixlok.com/wp-content/uploads/2021/12/Green-Tick-Icon-SVG-03vd.png"
+                            alt>
+                        <p class="fw-bold fs-2">Success</p>
+                    </div>
+
+                </div>
+            </div>
+        </div> -->
+        <!-- modal -->
 
         <footer>
             <div class="container">
