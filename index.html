@@ -34,7 +34,7 @@
 
                         </div>
                         <div class="col-12 col-lg-6">
-                            <div class="right_div ">
+                            <div class="d-none d-lg-block right_div  ">
                                 <div
                                     class="expires d-flex gap-2 justify-content-center align-items-center p-2 mb-3">
                                     <h5 class="text-white">Expires in</h5>
@@ -42,17 +42,18 @@
                                         <div class="d-flex gap-2">
                                             <div style="width: 60px;"
                                                 class="bg-white text-center py-1 px-2">
-                                                <h6 id="days" class="p-0 m-0">0</h6>
+                                                <h6 id="dayss" class="p-0 m-0">0</h6>
                                                 <p class="p-0 m-0">days</p>
                                             </div>
                                             <div style="width: 60px;"
                                                 class="bg-white text-center py-1 px-2">
-                                                <h6 id="hours" class="p-0 m-0">0</h6>
+                                                <h6 id="hourss" class="p-0 m-0">0</h6>
                                                 <p class="p-0 m-0">hours</p>
                                             </div>
                                             <div style="width: 60px;"
                                                 class="bg-white text-center py-1 px-2">
-                                                <h6 id="minutes" class="p-0 m-0">0</h6>
+                                                <h6 id="minutess"
+                                                    class="p-0 m-0">0</h6>
                                                 <p class="p-0 m-0">minutes</p>
                                             </div>
                                             <div style="width: 60px;"
@@ -155,6 +156,126 @@
                 </div>
 
             </section>
+
+            <div>
+                <div class="d-block d-lg-none bottom_div ">
+                    <div
+                        class="expires d-flex gap-2 justify-content-center align-items-center p-2 mb-3">
+                        <h5 class="text-white">Expires in</h5>
+                        <div>
+                            <div class="d-flex gap-2">
+                                <div style="width: 60px;"
+                                    class="bg-white text-center py-1 px-2">
+                                    <h6 id="days" class="p-0 m-0">0</h6>
+                                    <p class="p-0 m-0">days</p>
+                                </div>
+                                <div style="width: 60px;"
+                                    class="bg-white text-center py-1 px-2">
+                                    <h6 id="hours" class="p-0 m-0">0</h6>
+                                    <p class="p-0 m-0">hours</p>
+                                </div>
+                                <div style="width: 60px;"
+                                    class="bg-white text-center py-1 px-2">
+                                    <h6 id="minutes" class="p-0 m-0">0</h6>
+                                    <p class="p-0 m-0">minutes</p>
+                                </div>
+                                <div style="width: 60px;"
+                                    class="bg-white text-center py-1 px-2">
+                                    <h6 id="seconds" class="p-0 m-0">0</h6>
+                                    <p class="p-0 m-0">seconds</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form p-4">
+                        <h5 class="form-text">OFFER ONLY FOR VAT
+                            NUMBER!</h5>
+                        <h6 class="form-text">FILL OUT THE FORM TO
+                            BE CONTACTED BY THE NUMBER 342-0463834
+                        </h6>
+                        <h6 class="form-text mb-3">or 335-1638892</h6>
+
+                        <form>
+                            <div class="d-flex gap-4 mb-3">
+                                <div class="w-50">
+                                    <label
+                                        class="text-secondary input-text"
+                                        for="nameInput"
+                                        id="nameLabel">Name and
+                                        surname*</label>
+                                    <input type="text"
+                                        id="nameInput"
+                                        class="bottom-border-only w-100"
+                                        onclick="decreaseLabelScale('nameLabel')">
+                                </div>
+                                <div class="w-50">
+                                    <label
+                                        class="text-secondary input-text"
+                                        for="telephoneInput"
+                                        id="telephoneLabel">Telephone*</label>
+                                    <input type="text"
+                                        id="telephoneInput"
+                                        class="bottom-border-only w-100"
+                                        onclick="decreaseLabelScale('telephoneLabel')">
+                                </div>
+                            </div>
+                            <div class="mb-4">
+                                <label
+                                    class="d-block text-secondary input-text"
+                                    id="vatLabel">VAT number</label>
+                                <input type="text"
+                                    class="bottom-border-only w-100"
+                                    onclick="decreaseLabelScale('vatLabel')">
+                            </div>
+                            <div>
+                                <input type="text"
+                                    class="bottom-border-only w-100">
+                                <div
+                                    class="d-flex justify-content-between">
+                                    <label
+                                        class="d-block text-secondary input-footer-text">*Required
+                                        field</label>
+                                    <span
+                                        class="reset-text orange-text">Reset</span>
+                                </div>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input"
+                                    type="checkbox" value
+                                    id="flexCheckDefault">
+                                <label
+                                    class="form-check-label text-secondary"
+                                    for="flexCheckDefault">
+                                    I declare that I have read the<span
+                                        class="orange-text fw-bold">information
+                                        on the processing of
+                                        personal data pursuant to
+                                        art. 13 of Regulation (EU)
+                                        2016/679</span>
+                                    and I authorize Wind Tre to
+                                    process my personal data for the
+                                    purposes indicated therein.
+                                </label>
+                            </div>
+
+                            <div class="text-center">
+
+                                <button class="fw-bold mt-3 mb-2">
+                                    SEND
+                                </button>
+                                <p
+                                    class="text-secondary form-footer-text">You
+                                    will be called back from
+                                    342-0463834 or from 335-1638892</p>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+
             <!-- banner end -->
 
             <!-- office plus start -->
