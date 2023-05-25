@@ -82,7 +82,6 @@ header div {
   height: 440px;
 }
 
-
 .orange-text {
   color: #ff6900;
 }
@@ -263,3 +262,8 @@ input.input__control + label > span {
     opacity: 1;
   }
 } */
+@media screen and (max-width: 991px) {
+  .banner {
+    height: 500px;
+  }
+}
