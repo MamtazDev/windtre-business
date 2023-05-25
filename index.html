@@ -76,24 +76,33 @@
                                         <div class="d-flex gap-4 mb-3">
                                             <div class="w-50">
                                                 <label
-                                                    class="text-secondary input-text">Name
-                                                    and surname*</label>
+                                                    class="text-secondary input-text"
+                                                    for="nameInput"
+                                                    id="nameLabel">Name and
+                                                    surname*</label>
                                                 <input type="text"
-                                                    class="bottom-border-only w-100">
+                                                    id="nameInput"
+                                                    class="bottom-border-only w-100"
+                                                    onclick="decreaseLabelScale('nameLabel')">
                                             </div>
                                             <div class="w-50">
                                                 <label
-                                                    class="text-secondary input-text">Telephone*</label>
+                                                    class="text-secondary input-text"
+                                                    for="telephoneInput"
+                                                    id="telephoneLabel">Telephone*</label>
                                                 <input type="text"
-                                                    class="bottom-border-only w-100">
+                                                    id="telephoneInput"
+                                                    class="bottom-border-only w-100"
+                                                    onclick="decreaseLabelScale('telephoneLabel')">
                                             </div>
                                         </div>
                                         <div class="mb-4">
                                             <label
-                                                class="d-block text-secondary input-text">VAT
-                                                number</label>
+                                                class="d-block text-secondary input-text"
+                                                id="vatLabel">VAT number</label>
                                             <input type="text"
-                                                class="bottom-border-only w-100">
+                                                class="bottom-border-only w-100"
+                                                onclick="decreaseLabelScale('vatLabel')">
                                         </div>
                                         <div>
                                             <input type="text"
@@ -546,7 +555,6 @@
                     13378520152</p>
 
             </div>
-            <div id="countdown"></div>
 
         </footer>
         <script src="script.js"></script>

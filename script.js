@@ -32,3 +32,8 @@ var countdown = setInterval(function () {
     document.getElementById("seconds").textContent = "0";
   }
 }, 1000);
+
+function decreaseLabelScale(labelId) {
+    var label = document.getElementById(labelId);
+    label.classList.add("label-small");
+  }
