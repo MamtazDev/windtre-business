@@ -74,7 +74,8 @@
                                     <h6 class="form-text mb-3">or 335-1638892</h6>
 
                                     <form id="myForm">
-                                        <div class="d-flex gap-4 mb-3">
+                                        <!-- mamtaz -->
+                                        <!-- <div class="d-flex gap-4 mb-3">
                                             <div class="w-50">
                                                 <label
                                                     class="text-secondary input-text"
@@ -118,7 +119,42 @@
                                                 <span
                                                     class="reset-text orange-text">Reset</span>
                                             </div>
+                                        </div> -->
+
+
+                                        <!-- abir -->
+                                        <div class="d-flex gap-4 mb-3">
+                                            <div class="w-50 input__focus">
+                                                    <input type="text" id="nameInput" name="name" class="input__control" id="name" required autocomplete="off" />
+                                                    <label for="nameInput" id="nameLabel"><span>What's your name?</span></label>
+                                            </div>
+                                            <div class="w-50 input__focus">
+                                                <!-- <label class="text-secondary input-text" for="telephoneInput" id="telephoneLabel">Telephone*</label>
+                                                <input type="text" id="telephoneInput" class="bottom-border-only w-100" onclick="decreaseLabelScale('telephoneLabel')"> -->
+                                                <input type="text" id="telephoneInput" name="phone" class="input__control" id="phone" required autocomplete="off" />
+                                                <label for="telephoneInput" id="telephoneLabel"><span>Telephone*</span></label>
+                                            </div>
                                         </div>
+                                        <div class="mb-4">
+                                            <div class="input__focus">
+                                                <!-- <label class="d-block text-secondary input-text" id="vatLabel">VAT number</label>
+                                                <input type="text" class="bottom-border-only w-100" onclick="decreaseLabelScale('vatLabel')" id="vatInput"> -->
+                                                <input type="text" name="vat" class="input__control" id="vatInput" required autocomplete="off" />
+                                                <label for="vat" id="vatLabel"><span>VAT number</span></label>
+                                            </div>
+                                        </div>
+                                        <div class="input__focus">
+                                            <!-- <input type="text" class="bottom-border-only w-100" id="requiredInput"> -->
+                                            <input type="text" name="vat" class="input__control" id="requiredInput" required autocomplete="off" />
+                                            <div class="d-flex justify-content-between align-items-center mt-2">
+                                                <small style="font-size: 12px;">*Required field</small>
+                                                <span
+                                                    class="reset-text orange-text m-0 p-0">Reset</span>
+                                            </div>
+                                            <!-- <label for="vat"><span>VAT number</span></label> -->
+                                        </div>
+
+
 
                                         <div class="form-check">
                                             <input class="form-check-input"
