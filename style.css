@@ -118,6 +118,10 @@ header div {
 .input-text {
   font-size: 15px;
 }
+
+.main-body {
+  width: 100%;
+}
 @keyframes decreaseScale {
   0% {
     transform: scale(1);
