@@ -24,7 +24,7 @@
         </header>
         <!-- header end -->
 
-        <main class="pt-5 main-body">
+        <main class="pt-5">
             <!-- banner start -->
             <section class="banner">
 
@@ -75,49 +75,71 @@
 
                                     <form id="myForm">
                                         <div class="d-flex gap-4 mb-3">
-                                            <div class="w-50">
-                                                <label
+                                            <div class="w-50 input__focus">
+                                                <!-- <label
                                                     class="text-secondary input-text"
                                                     for="nameInput"
-                                                    id="nameLabel">Nome e
-                                                    Cognome*</label>
+                                                    id="nameLabel">Name and
+                                                    surname*</label>
                                                 <input type="text"
                                                     id="nameInput"
                                                     class="bottom-border-only w-100"
-                                                    onclick="decreaseLabelScale('nameLabel')">
+                                                    > -->
+                                                <!-- onclick="decreaseLabelScale('nameLabel')" -->
+                                                <input type="text" name="name"
+                                                    class="input__control"
+                                                    id="name" required
+                                                    autocomplete="off" />
+                                                <label for="name"><span>Nome e
+                                                        Cognome*</span></label>
                                             </div>
-                                            <div class="w-50">
-                                                <label
+                                            <div class="w-50 input__focus">
+                                                <!-- <label
                                                     class="text-secondary input-text"
                                                     for="telephoneInput"
-                                                    id="telephoneLabel">Telefono*</label>
+                                                    id="telephoneLabel">Telephone*</label>
                                                 <input type="text"
                                                     id="telephoneInput"
                                                     class="bottom-border-only w-100"
-                                                    onclick="decreaseLabelScale('telephoneLabel')">
+                                                    onclick="decreaseLabelScale('telephoneLabel')"> -->
+                                                <input type="text" name="phone"
+                                                    class="input__control"
+                                                    id="phone" required
+                                                    autocomplete="off" />
+                                                <label for="phone"><span>Telefono*</span></label>
                                             </div>
                                         </div>
                                         <div class="mb-4">
-                                            <label
+                                            <div class="input__focus">
+                                                <!-- <label
                                                 class="d-block text-secondary input-text"
-                                                id="vatLabel">P.IVA</label>
+                                                id="vatLabel">VAT number</label>
                                             <input type="text"
                                                 class="bottom-border-only w-100"
                                                 onclick="decreaseLabelScale('vatLabel')"
-                                                id="vatInput">
-                                        </div>
-                                        <div>
-                                            <input type="text"
-                                                class="bottom-border-only w-100"
-                                                id="requiredInput">
-                                            <div
-                                                class="d-flex justify-content-between">
-                                                <label
-                                                    class="d-block text-secondary input-footer-text">*Campo
-                                                    obbligatorio</label>
-                                                <span
-                                                    class="reset-text orange-text">Reset</span>
+                                                id="vatInput"> -->
+                                                <input type="text" name="vat"
+                                                    class="input__control"
+                                                    id="vat" required
+                                                    autocomplete="off" />
+                                                <label for="vat"><span>P.IVA</span></label>
                                             </div>
+                                        </div>
+                                        <div class="input__focus">
+                                            <!-- <input type="text"
+                                                class="bottom-border-only w-100"
+                                                id="requiredInput"> -->
+                                            <input type="text" name="vat"
+                                                class="input__control" id="vat"
+                                                required autocomplete="off" />
+                                            <div
+                                                class="d-flex justify-content-between align-items-center mt-2">
+                                                <small style="font-size: 12px;">*Campo
+                                                    obbligatorio</small>
+                                                <span
+                                                    class="reset-text orange-text m-0 p-0">Reset</span>
+                                            </div>
+                                            <!-- <label for="vat"><span>VAT number</span></label> -->
                                         </div>
 
                                         <div class="form-check">

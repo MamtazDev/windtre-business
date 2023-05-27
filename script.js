@@ -106,7 +106,7 @@ $(document).ready(function () {
         vatLabel.html("Invalid VAT number");
       } else {
         // Make API request to validate VAT number
-        const apiUrl = "https://www.vatcomply.com/vat-validation-api/"; // Replace with your API endpoint
+        const apiUrl = " https://www.vatcomply.com/vat-validation-api/"; // Replace with your API endpoint
         const requestData = {
           vatNumber: vatInput.val().trim(),
         };
